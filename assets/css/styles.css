@@ -1,0 +1,66 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+#logo {
+	width: 100%;
+	display: block;
+	padding-bottom: 1em;
+	border-bottom: 1px dashed #ccc;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 2em;
+}
+
+#logo a {
+	text-transform: uppercase;
+	color: #84a9f3;
+	text-decoration: none;
+}
+
+#logo img {
+	width: 525px;
+	margin: 0 auto;
+	display: block;
+}
+
+.form-table {
+	width: 500px;
+	margin: 1em auto;
+}
+
+.form-table th {
+	text-align: right;
+	line-height: 32px;
+	color: #444;
+	width:  auto;
+}
+
+hr {
+	border: 1px dotted #ccc;
+}
+
+input[type='checkbox'] {
+	margin-top: 12px;
+}
+
+.form-table input, .form-table textarea {
+	padding: 8px 6px;
+	width: 100%;
+}
+
+.submit {
+	text-align: center;
+}
